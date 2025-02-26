@@ -3,22 +3,30 @@
     {
       "id": 1,
       "naam": "Schade opnemen",
-      "standaard": true
+      "standaard": true,
+      "userId": 1,
+      "locatie": "Amsterdam"
     },
     {
       "id": 2,
       "naam": "Achterstallig onderhoud opnemen",
-      "standaard": true
+      "standaard": true,
+      "userId": 1,
+      "locatie": "Rotterdam"
     },
     {
       "id": 3,
       "naam": "Technische installaties inspecteren",
-      "standaard": false
+      "standaard": false,
+      "userId": 2,
+      "locatie": "Utrecht"
     },
     {
       "id": 4,
       "naam": "Modificaties inventariseren",
-      "standaard": false
+      "standaard": false,
+      "userId": 3,
+      "locatie": "Den Haag"
     }
   ]
 }
