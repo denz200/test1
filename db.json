@@ -1,0 +1,6 @@
+[
+  { "id": 1, "titel": "Schade opnemen", "standaard": true },
+  { "id": 2, "titel": "Achterstallig onderhoud opnemen", "standaard": true },
+  { "id": 3, "titel": "Technische installaties inspecteren", "standaard": false },
+  { "id": 4, "titel": "Modificaties inventariseren", "standaard": false }
+]
