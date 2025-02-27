@@ -6,8 +6,10 @@
       "locatie": "Amsterdam",
       "userId": 1,
       "doelen": [
-        { "id": 1, "omschrijving": "Schade opnemen" },
-        { "id": 2, "omschrijving": "Achterstallig onderhoud opnemen" }
+        { "id": 1, "standaard": true, "selected": true },
+        { "id": 2, "standaard": false, "selected": false },
+        { "id": 3, "standaard": false, "selected": false },
+        { "id": 4, "standaard": false, "selected": false }
       ]
     },
     {
@@ -16,8 +18,10 @@
       "locatie": "Rotterdam",
       "userId": 1,
       "doelen": [
-        { "id": 3, "omschrijving": "Technische installaties inspecteren" },
-        { "id": 4, "omschrijving": "Modificaties inventariseren" }
+        { "id": 1, "standaard": false, "selected": false },
+        { "id": 2, "standaard": true, "selected": true },
+        { "id": 3, "standaard": false, "selected": false },
+        { "id": 4, "standaard": false, "selected": false }
       ]
     },
     {
@@ -26,9 +30,10 @@
       "locatie": "Utrecht",
       "userId": 1,
       "doelen": [
-        { "id": 1, "omschrijving": "Schade opnemen" },
-        { "id": 3, "omschrijving": "Technische installaties inspecteren" },
-        { "id": 4, "omschrijving": "Modificaties inventariseren" }
+        { "id": 1, "standaard": true, "selected": true },
+        { "id": 2, "standaard": false, "selected": false },
+        { "id": 3, "standaard": true, "selected": true },
+        { "id": 4, "standaard": false, "selected": false }
       ]
     }
   ]
