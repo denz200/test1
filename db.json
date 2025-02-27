@@ -5,21 +5,31 @@
       "naam": "Inspectie 1",
       "locatie": "Amsterdam",
       "userId": 1,
-      "doelen": [1, 2]
+      "doelen": [
+        { "id": 1, "omschrijving": "Schade opnemen" },
+        { "id": 2, "omschrijving": "Achterstallig onderhoud opnemen" }
+      ]
     },
     {
       "id": 2,
       "naam": "Inspectie 2",
       "locatie": "Rotterdam",
-      "userId": 2,
-      "doelen": [3, 4]
+      "userId": 1,
+      "doelen": [
+        { "id": 3, "omschrijving": "Technische installaties inspecteren" },
+        { "id": 4, "omschrijving": "Modificaties inventariseren" }
+      ]
     },
     {
       "id": 3,
       "naam": "Inspectie 3",
       "locatie": "Utrecht",
-      "userId": 3,
-      "doelen": [1, 3, 4]
+      "userId": 1,
+      "doelen": [
+        { "id": 1, "omschrijving": "Schade opnemen" },
+        { "id": 3, "omschrijving": "Technische installaties inspecteren" },
+        { "id": 4, "omschrijving": "Modificaties inventariseren" }
+      ]
     }
   ]
 }
