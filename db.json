@@ -1,39 +1,146 @@
 {
-  "inspecties": [
+  "inspections": [
     {
       "id": 1,
-      "naam": "Inspectie 1",
-      "locatie": "Amsterdam",
-      "userId": 1,
-      "doelen": [
-        { "id": 1, "standaard": true, "selected": true },
-        { "id": 2, "standaard": false, "selected": false },
-        { "id": 3, "standaard": false, "selected": false },
-        { "id": 4, "standaard": false, "selected": false }
+      "name": "Inspectie Amsterdam",
+      "location": "Amsterdam",
+      "assignedToUserId": 1,
+      "date": "2025-03-15T09:30:00Z",
+      "goals": [
+        { "id": 1, "isDefault": true, "applicable": true },
+        { "id": 2, "isDefault": false, "applicable": false },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": false, "applicable": false }
       ]
     },
     {
       "id": 2,
-      "naam": "Inspectie 2",
-      "locatie": "Rotterdam",
-      "userId": 1,
-      "doelen": [
-        { "id": 1, "standaard": false, "selected": false },
-        { "id": 2, "standaard": true, "selected": true },
-        { "id": 3, "standaard": false, "selected": false },
-        { "id": 4, "standaard": false, "selected": false }
+      "name": "Inspectie Rotterdam",
+      "location": "Rotterdam",
+      "assignedToUserId": 1,
+      "date": "2025-03-14T14:00:00Z",
+      "goals": [
+        { "id": 1, "isDefault": false, "applicable": false },
+        { "id": 2, "isDefault": true, "applicable": true },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": false, "applicable": false }
       ]
     },
     {
       "id": 3,
-      "naam": "Inspectie 3",
-      "locatie": "Utrecht",
-      "userId": 1,
-      "doelen": [
-        { "id": 1, "standaard": true, "selected": true },
-        { "id": 2, "standaard": false, "selected": false },
-        { "id": 3, "standaard": true, "selected": true },
-        { "id": 4, "standaard": false, "selected": false }
+      "name": "Inspectie Utrecht",
+      "location": "Utrecht",
+      "assignedToUserId": 1,
+      "date": "2025-03-13T11:15:00Z",
+      "goals": [
+        { "id": 1, "isDefault": true, "applicable": true },
+        { "id": 2, "isDefault": false, "applicable": false },
+        { "id": 3, "isDefault": true, "applicable": true },
+        { "id": 4, "isDefault": false, "applicable": false }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Inspectie Den Haag",
+      "location": "Den Haag",
+      "assignedToUserId": 2,
+      "date": "2025-03-12T08:45:00Z",
+      "goals": [
+        { "id": 1, "isDefault": false, "applicable": false },
+        { "id": 2, "isDefault": false, "applicable": false },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": true, "applicable": true }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Inspectie Eindhoven",
+      "location": "Eindhoven",
+      "assignedToUserId": 2,
+      "date": "2025-03-11T10:00:00Z",
+      "goals": [
+        { "id": 1, "isDefault": false, "applicable": false },
+        { "id": 2, "isDefault": true, "applicable": true },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": false, "applicable": false }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Inspectie Tilburg",
+      "location": "Tilburg",
+      "assignedToUserId": 3,
+      "date": "2025-03-10T15:30:00Z",
+      "goals": [
+        { "id": 1, "isDefault": false, "applicable": false },
+        { "id": 2, "isDefault": false, "applicable": false },
+        { "id": 3, "isDefault": true, "applicable": true },
+        { "id": 4, "isDefault": false, "applicable": false }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Inspectie Groningen",
+      "location": "Groningen",
+      "assignedToUserId": 3,
+      "date": "2025-03-09T12:00:00Z",
+      "goals": [
+        { "id": 1, "isDefault": true, "applicable": true },
+        { "id": 2, "isDefault": false, "applicable": false },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": false, "applicable": false }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Inspectie Maastricht",
+      "location": "Maastricht",
+      "assignedToUserId": 4,
+      "date": "2025-03-08T09:00:00Z",
+      "goals": [
+        { "id": 1, "isDefault": false, "applicable": false },
+        { "id": 2, "isDefault": false, "applicable": false },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": true, "applicable": true }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Inspectie Leeuwarden",
+      "location": "Leeuwarden",
+      "assignedToUserId": 4,
+      "date": "2025-03-07T08:00:00Z",
+      "goals": [
+        { "id": 1, "isDefault": true, "applicable": true },
+        { "id": 2, "isDefault": true, "applicable": true },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": false, "applicable": false }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Inspectie Breda",
+      "location": "Breda",
+      "assignedToUserId": 5,
+      "date": "2025-03-06T13:20:00Z",
+      "goals": [
+        { "id": 1, "isDefault": false, "applicable": false },
+        { "id": 2, "isDefault": true, "applicable": true },
+        { "id": 3, "isDefault": false, "applicable": false },
+        { "id": 4, "isDefault": false, "applicable": false }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Inspectie Nijmegen",
+      "location": "Nijmegen",
+      "assignedToUserId": 5,
+      "date": "2025-03-05T11:10:00Z",
+      "goals": [
+        { "id": 1, "isDefault": false, "applicable": false },
+        { "id": 2, "isDefault": false, "applicable": false },
+        { "id": 3, "isDefault": true, "applicable": true },
+        { "id": 4, "isDefault": false, "applicable": false }
       ]
     }
   ]
