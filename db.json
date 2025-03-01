@@ -103,8 +103,8 @@
         "date": "",
         "urgent": "",
         "description": "",
-        "isDefault": true,
-        "applicable": true
+        "isDefault": false,
+        "applicable": false
       },
       "maintenanceCheck": {
         "location": "",
@@ -139,7 +139,7 @@
       "id": 4,
       "name": "Inspectie Den Haag",
       "location": "Den Haag",
-      "assignedToUserId": 2,
+      "assignedToUserId": 1,
       "date": "2025-03-12T08:45:00Z",
       "damageCheck": {
         "location": "",
@@ -193,8 +193,8 @@
         "date": "",
         "urgent": "",
         "description": "",
-        "isDefault": false,
-        "applicable": false
+        "isDefault": true,
+        "applicable": true
       },
       "maintenanceCheck": {
         "location": "",
@@ -229,7 +229,7 @@
       "id": 6,
       "name": "Inspectie Tilburg",
       "location": "Tilburg",
-      "assignedToUserId": 3,
+      "assignedToUserId": 2,
       "date": "2025-03-10T15:30:00Z",
       "damageCheck": {
         "location": "",
@@ -238,8 +238,8 @@
         "date": "",
         "urgent": "",
         "description": "",
-        "isDefault": false,
-        "applicable": false
+        "isDefault": true,
+        "applicable": true
       },
       "maintenanceCheck": {
         "location": "",
@@ -274,7 +274,7 @@
       "id": 7,
       "name": "Inspectie Groningen",
       "location": "Groningen",
-      "assignedToUserId": 3,
+      "assignedToUserId": 2,
       "date": "2025-03-09T12:00:00Z",
       "damageCheck": {
         "location": "",
@@ -283,16 +283,16 @@
         "date": "",
         "urgent": "",
         "description": "",
-        "isDefault": true,
-        "applicable": true
+        "isDefault": false,
+        "applicable": false
       },
       "maintenanceCheck": {
         "location": "",
         "type": "",
         "urgent": "",
         "cost": "",
-        "isDefault": false,
-        "applicable": false
+        "isDefault": true,
+        "applicable": true
       },
       "technicalCheck": {
         "location": "",
@@ -311,15 +311,15 @@
         "description": "",
         "action": "",
         "notes": "",
-        "isDefault": false,
-        "applicable": false
+        "isDefault": true,
+        "applicable": true
       }
     },
     {
       "id": 8,
       "name": "Inspectie Maastricht",
       "location": "Maastricht",
-      "assignedToUserId": 4,
+      "assignedToUserId": 2,
       "date": "2025-03-08T09:00:00Z",
       "damageCheck": {
         "location": "",
@@ -346,141 +346,6 @@
         "testProcedure": "",
         "approved": "",
         "notes": "",
-        "isDefault": false,
-        "applicable": false
-      },
-      "modificationsCheck": {
-        "existing": "",
-        "location": "",
-        "performedBy": "",
-        "description": "",
-        "action": "",
-        "notes": "",
-        "isDefault": true,
-        "applicable": true
-      }
-    },
-    {
-      "id": 9,
-      "name": "Inspectie Leeuwarden",
-      "location": "Leeuwarden",
-      "assignedToUserId": 4,
-      "date": "2025-03-07T08:00:00Z",
-      "damageCheck": {
-        "location": "",
-        "new": "",
-        "type": "",
-        "date": "",
-        "urgent": "",
-        "description": "",
-        "isDefault": true,
-        "applicable": true
-      },
-      "maintenanceCheck": {
-        "location": "",
-        "type": "",
-        "urgent": "",
-        "cost": "",
-        "isDefault": true,
-        "applicable": true
-      },
-      "technicalCheck": {
-        "location": "",
-        "type": "",
-        "issues": "",
-        "testProcedure": "",
-        "approved": "",
-        "notes": "",
-        "isDefault": false,
-        "applicable": false
-      },
-      "modificationsCheck": {
-        "existing": "",
-        "location": "",
-        "performedBy": "",
-        "description": "",
-        "action": "",
-        "notes": "",
-        "isDefault": false,
-        "applicable": false
-      }
-    },
-    {
-      "id": 10,
-      "name": "Inspectie Breda",
-      "location": "Breda",
-      "assignedToUserId": 5,
-      "date": "2025-03-06T13:20:00Z",
-      "damageCheck": {
-        "location": "",
-        "new": "",
-        "type": "",
-        "date": "",
-        "urgent": "",
-        "description": "",
-        "isDefault": false,
-        "applicable": false
-      },
-      "maintenanceCheck": {
-        "location": "",
-        "type": "",
-        "urgent": "",
-        "cost": "",
-        "isDefault": true,
-        "applicable": true
-      },
-      "technicalCheck": {
-        "location": "",
-        "type": "",
-        "issues": "",
-        "testProcedure": "",
-        "approved": "",
-        "notes": "",
-        "isDefault": false,
-        "applicable": false
-      },
-      "modificationsCheck": {
-        "existing": "",
-        "location": "",
-        "performedBy": "",
-        "description": "",
-        "action": "",
-        "notes": "",
-        "isDefault": false,
-        "applicable": false
-      }
-    },
-    {
-      "id": 11,
-      "name": "Inspectie Nijmegen",
-      "location": "Nijmegen",
-      "assignedToUserId": 5,
-      "date": "2025-03-05T11:10:00Z",
-      "damageCheck": {
-        "location": "",
-        "new": "",
-        "type": "",
-        "date": "",
-        "urgent": "",
-        "description": "",
-        "isDefault": false,
-        "applicable": false
-      },
-      "maintenanceCheck": {
-        "location": "",
-        "type": "",
-        "urgent": "",
-        "cost": "",
-        "isDefault": false,
-        "applicable": false
-      },
-      "technicalCheck": {
-        "location": "",
-        "type": "",
-        "issues": "",
-        "testProcedure": "",
-        "approved": "",
-        "notes": "",
         "isDefault": true,
         "applicable": true
       },
@@ -491,8 +356,8 @@
         "description": "",
         "action": "",
         "notes": "",
-        "isDefault": false,
-        "applicable": false
+        "isDefault": true,
+        "applicable": true
       }
     }
   ]
