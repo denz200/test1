@@ -6,6 +6,7 @@
       "location": "Amsterdam",
       "assignedToUserId": 1,
       "date": "2025-03-15T09:30:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
@@ -51,6 +52,7 @@
       "location": "Rotterdam",
       "assignedToUserId": 1,
       "date": "2025-03-14T14:00:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
@@ -96,6 +98,7 @@
       "location": "Utrecht",
       "assignedToUserId": 1,
       "date": "2025-03-13T11:15:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
@@ -141,6 +144,7 @@
       "location": "Den Haag",
       "assignedToUserId": 1,
       "date": "2025-03-12T08:45:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
@@ -186,6 +190,7 @@
       "location": "Eindhoven",
       "assignedToUserId": 2,
       "date": "2025-03-11T10:00:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
@@ -231,6 +236,7 @@
       "location": "Tilburg",
       "assignedToUserId": 2,
       "date": "2025-03-10T15:30:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
@@ -276,6 +282,7 @@
       "location": "Groningen",
       "assignedToUserId": 2,
       "date": "2025-03-09T12:00:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
@@ -321,6 +328,7 @@
       "location": "Maastricht",
       "assignedToUserId": 2,
       "date": "2025-03-08T09:00:00Z",
+      "isCompleted": false,
       "damageCheck": {
         "location": "",
         "new": "",
