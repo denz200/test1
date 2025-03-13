@@ -1,5 +1,19 @@
 ﻿# RealEstateCare
 
+## Installatie en compilatie
+
+### Project opzetten
+
+```npm install```
+
+### Compileren voor ontwikkeling
+
+```npm run dev```
+
+### Compileren voor productie
+
+```npm run build```
+
 ## De pagina’s van RealEstateCare
 
 ### Inloggen
