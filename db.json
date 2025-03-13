@@ -1,0 +1,372 @@
+{
+  "inspections": [
+    {
+      "id": 1,
+      "name": "Inspectie Amsterdam",
+      "location": "Amsterdam",
+      "assignedToUserId": 1,
+      "date": "2025-03-15T09:30:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "Inspectie Rotterdam",
+      "location": "Rotterdam",
+      "assignedToUserId": 1,
+      "date": "2025-03-14T14:00:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      }
+    },
+    {
+      "id": 3,
+      "name": "Inspectie Utrecht",
+      "location": "Utrecht",
+      "assignedToUserId": 1,
+      "date": "2025-03-13T11:15:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      }
+    },
+    {
+      "id": 4,
+      "name": "Inspectie Den Haag",
+      "location": "Den Haag",
+      "assignedToUserId": 1,
+      "date": "2025-03-12T08:45:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": true,
+        "applicable": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "Inspectie Eindhoven",
+      "location": "Eindhoven",
+      "assignedToUserId": 2,
+      "date": "2025-03-11T10:00:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      }
+    },
+    {
+      "id": 6,
+      "name": "Inspectie Tilburg",
+      "location": "Tilburg",
+      "assignedToUserId": 2,
+      "date": "2025-03-10T15:30:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      }
+    },
+    {
+      "id": 7,
+      "name": "Inspectie Groningen",
+      "location": "Groningen",
+      "assignedToUserId": 2,
+      "date": "2025-03-09T12:00:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": true,
+        "applicable": true
+      }
+    },
+    {
+      "id": 8,
+      "name": "Inspectie Maastricht",
+      "location": "Maastricht",
+      "assignedToUserId": 2,
+      "date": "2025-03-08T09:00:00Z",
+      "isCompleted": false,
+      "damageCheck": {
+        "location": "",
+        "new": "",
+        "type": "",
+        "date": "",
+        "urgent": "",
+        "description": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "maintenanceCheck": {
+        "location": "",
+        "type": "",
+        "urgent": "",
+        "cost": "",
+        "isDefault": false,
+        "applicable": false
+      },
+      "technicalCheck": {
+        "location": "",
+        "type": "",
+        "issues": "",
+        "testProcedure": "",
+        "approved": "",
+        "notes": "",
+        "isDefault": true,
+        "applicable": true
+      },
+      "modificationsCheck": {
+        "existing": "",
+        "location": "",
+        "performedBy": "",
+        "description": "",
+        "action": "",
+        "notes": "",
+        "isDefault": true,
+        "applicable": true
+      }
+    }
+  ]
+}

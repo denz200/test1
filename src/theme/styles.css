@@ -1,0 +1,62 @@
+/* Toolbars */
+ion-toolbar {
+  --background: var(--kleur-primary);
+  --ion-toolbar-color: var(--kleur-wit);
+  /* --color: var(--kleur-wit); */
+}
+
+ion-item[color="primary"] {
+  --ion-color-primary: var(--ion-color-primary-donker);
+}
+
+.top-toolbar {
+  display: flex;
+  height: 90px;
+  --background: linear-gradient(
+    to right,
+    var(--kleur-grijs-2),
+    var(--kleur-grijs-1)
+  );
+}
+
+.logo {
+  height: 60px;
+}
+
+@media only screen and (max-width: 1023px) and (orientation: landscape) {
+  .top-toolbar {
+    height: 60px;
+  }
+  .logo {
+    height: 45px;
+  }
+}
+
+ion-tab-button.actief {
+  --background: var(--kleur-secondary);
+  --color-selected: var(--kleur-wit);
+}
+
+.content-container {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header-color-applicable {
+  background-color: var(--kleur-primary);
+}
+
+.header-color-normal {
+  background-color: var(--kleur-wit);
+}
+
+.inspectie-card:hover,
+.inspectie-card:focus {
+  --background: var(--ion-color-light-shade);
+}
+
+.inspectie-card-content {
+  color: var(--kleur-grijs-1);
+}
