@@ -9,6 +9,8 @@
 ### Compileren voor ontwikkeling
 
 ```npm run dev```
+of
+```ionic serve```
 
 ### Compileren voor productie
 
